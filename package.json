@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git"
+    "url": "https://github.com/Ernest2026/Agrilinks"
   },
   "keywords": [
     "nodejs"
@@ -20,6 +20,6 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "mongoose": "file:../Netclan/backend/node_modules/mongoose"
+    "mongoose": "^6.3.6"
   }
 }
