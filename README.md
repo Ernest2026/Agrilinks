@@ -2,7 +2,7 @@
 
 You are required to build an express JS API web-service which captures user contributed reports and returns an aggregate report in response.
 
-# How to use
+# How to test api
 
 ### Firstly you're to create a report request.
 
@@ -44,3 +44,11 @@ POST https://agri-links.herokuapp.com/api/v1/reports
 GET https://agri-links.herokuapp.com/api/v1/reports?reportID=949832f8-48c7-4cb2-8dcd-98f046a9a2e3
 
 **Note:** the response for the GET request returns **id** instead of **\_id** because mongodb takes the **\_id** as a unique value for default and also the timestamp returns the time the API was called.
+
+# How to run locally
+
+- Clone or download the repo
+- Create a .env file in the root folder and add the following parameters
+    - PORT
+    - DATABASE_URL
+- Run **npm install** and **npm start**.
